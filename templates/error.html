@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html style ="height: 100%">
+    <head>
+
+    	<title>Dartboard: Trips Made Simple</title>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+
+	<!-- Nivo Lightbox CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+	<!-- Owl Carousel CSS
+   ================================================== -->
+   	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+
+	<!-- BxSlider CSS
+   ================================================== -->
+   	<link rel="stylesheet" href="css/bxslider.css">
+
+   	<!-- Main CSS
+   	================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font
+   ================================================== -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+	
+</head>
+	
+    </head>
+    <body style="background-color:black;">
+    <div  style="height: 100%; position: fixed; overflow-y: scroll; width: 100%;">
+   	
+        <section class="navbar navbar-static-top custom-navbar" role="navigation">
+        	 
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a class="smoothScroll navbar-brand" href="{{ url_for('index') }}">DARTBOARD</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+            
+				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
+                
+                <li><a href="/" class="smoothScroll">HOME</a></li>
+				<li><a href="#" class="smoothScroll"><b>TRIP</b></a></li>
+			</ul>
+		</div>
+
+	</div>
+	    </section>
+
+	<div class="site-slider" style = "background-image: url('images/slider/dark.jpg'); background-size:100%; height: 100%;">
+            <section id="plan" class="parallax-section">
+                <div class="container">
+                    <h2>{{error}}</h2>
+                </div>
+    </div> <!-- /.site-slider -->
+	</section>
+	</div>
+    </body>
+</html>

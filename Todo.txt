@@ -1,0 +1,11 @@
+* Optimize algorithm
+* fix error page
+* host with legit domain
+* change picture squares
+* footer
+* devpost
+
+
+
+* smaller destination squares
+* smaller counter boxes
